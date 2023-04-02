@@ -4,12 +4,12 @@
                     <h3>PHIM ĐANG CHIẾU</h3>
                 </div>
                 <div class="flim-container-title-more">
-                    <a href="#">Xem Thêm</a>
+                    <a href="flimShowing.php">Xem Thêm</a>
                 </div>
             </div>
             <div class="film-component-container" id="silde-container">
                 <?php
-                include 'ConnectDatabase\flimShowing.php';
+                include 'ConnectDatabase\flimShowing-TrangChuPage.php';
                 ?>
             </div>
         </div>

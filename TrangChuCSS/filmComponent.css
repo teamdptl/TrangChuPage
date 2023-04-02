@@ -15,6 +15,7 @@
 .film-component-container-picture {
     height: auto;
     width: 100%;
+    position: relative;
 }
 
 .film-component-container-picture img {
@@ -31,6 +32,7 @@
     align-items: center;
     font-family: 'Roboto', sans-serif;
     height: 45px;
+    text-align: left;
 }
 
 .film-component-btn button {
@@ -49,4 +51,22 @@
 
 .film-component-component{
     width: 100%;
+}
+.film-component-type{
+    font-size: 12px;
+    opacity: 0.9;
+
+
+}
+.film-component-container-age{
+    background-color: #c4c3c35b;
+    border: 1px red solid;
+    position: absolute;
+    color: #ff0000;
+    top: 5%;
+    right: 5%;
+    border-radius: 2px;
+}
+.film-component-container-age label{
+  padding: 8px;
 }

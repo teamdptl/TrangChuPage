@@ -1,0 +1,38 @@
+.tilte-showing-container {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.flim-showing-container {
+    height: auto;
+    width: 100%;
+}
+.tilte-showing{
+    width: 85%;
+}
+.tilte-later-showing{
+    width: 15%;
+    opacity: 0.6;
+}
+.flim-showing-item {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.film-component-showing{
+    width: 18rem;
+    margin: 1.3rem;
+}
+.table{
+    width: 100%;
+}
+td{
+    width:20%
+}
+body{
+    margin :  0 auto
+}

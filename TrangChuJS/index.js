@@ -1,8 +1,8 @@
 let list = [
-	{ name: "Kimestu no yaiba", link: "https://images.baodantoc.vn/uploads/2022/Th%C3%A1ng_11/Ng%C3%A0y%208/Nga/Black-Adam-07112022.jpg" },
-	{ name: "Kimestu no yaiba", link: "https://cdn.popsww.com/blog/sites/2/2023/02/thanh-guom-diet-quy-lang-tho-ren.jpg" },
-	{ name: "Kimestu no yaiba", link: "https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/11/18/photo-1-1637245275307984203966.jpg" },
-	{ name: "Kimestu no yaiba", link: "https://khoinguonsangtao.vn/wp-content/uploads/2022/11/hinh-anh-kimetsu-no-yaiba-hinh-nen-kimetsu.jpg" },
+    { name: "Kimestu no yaiba", link: "https://images.baodantoc.vn/uploads/2022/Th%C3%A1ng_11/Ng%C3%A0y%208/Nga/Black-Adam-07112022.jpg" },
+    { name: "Kimestu no yaiba", link: "https://cdn.popsww.com/blog/sites/2/2023/02/thanh-guom-diet-quy-lang-tho-ren.jpg" },
+    { name: "Kimestu no yaiba", link: "https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/11/18/photo-1-1637245275307984203966.jpg" },
+    { name: "Kimestu no yaiba", link: "https://khoinguonsangtao.vn/wp-content/uploads/2022/11/hinh-anh-kimetsu-no-yaiba-hinh-nen-kimetsu.jpg" },
     { name: "Kimestu no yaiba", link: "https://o.rada.vn/data/image/2022/11/17/Suzume-no-Tojimari-7.jpg" },
     { name: "Kimestu no yaiba", link: "https://tintuc-divineshop.cdn.vccloud.vn/wp-content/uploads/2023/03/nhung-nhan-vat-cung-suzume-tao-nen-hanh-trinh-dong-cua-thu-vi_640f08b3ceeba.jpeg" },
 ];
@@ -36,8 +36,8 @@ const listenerForButton = () => {
 const centerTheList = () => {
     let slider = document.querySelector("#slider");
     let leftPosition = (slider.clientWidth - screen.width) / 2;
-	let container = document.querySelector("#container");
-	container.style.left = `-${leftPosition}px`;
+    let container = document.querySelector("#container");
+    container.style.left = `-${leftPosition}px`;
 }
 
 const renderList = () => {

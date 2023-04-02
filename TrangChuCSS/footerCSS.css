@@ -1,0 +1,30 @@
+.footer-container{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.footer-container-item{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    margin: 10px 5px;
+   
+}
+.footer-container-item a{
+   text-decoration: none;
+   line-height: 2.5em;
+   color: black;
+}
+.footer-container-item-logo{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    margin: 10px 5px;
+}
+.footer-container-item-logo label   {
+  opacity: 0.6;
+ }

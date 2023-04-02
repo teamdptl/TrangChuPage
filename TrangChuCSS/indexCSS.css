@@ -5,10 +5,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* .container2{
-    width: 100%;
-    height: auto;
-} */
 
 .header-container {
     width: 100%;
@@ -66,7 +62,7 @@ body {
 
 /* FLim-container */
 .flim-container {
-    background-color: rgb(241 238 238 / 50%);
+    background-color: rgb(241 238 238 );
     padding: 20px;
     height: auto;
     border-radius: 10px;
@@ -74,7 +70,7 @@ body {
 }
 
 .flim-container h3 {
-    background-color: rgb(241 238 238 / 50%);
+    background-color: rgb(241 238 238);
     padding: 20px;
 
 }
@@ -98,54 +94,10 @@ body {
 
 .flim-container-title-more a {
     text-decoration-line: none;
+    color: blue;
 }
-/* Event-promotion */
-.event-promotion-container{
-    width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-    border: 2px blue solid;
-    background-color: rgb(241 238 238 / 50%);
-    border-radius: 10px;
-    
-}
-.event-promontion-header{
-    width: 15%;
-    height: 40px;
-    position: relative;
-    background-color: white;
-    border: 2px blue solid;
-    border-radius: 50px;
-    bottom: 20px;
-    left: 43%;
-    text-align: center;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.event-promotion-item{
-    width: 100%;
-}
-.event-promotion-item-container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 60px;
-}
-.event-promotion-item-img{
-    width: 100%;
-}
-.event-promotion-item-img img {
-    border-radius: 10px;
-}
-.event-promotion-item-day label{
-    font-size: 12px;
-    font-weight: bold;
-}
-.event-promotion{
-    width:23% ;
-}
+
+
 
 /* Footer */
 .footer-container{

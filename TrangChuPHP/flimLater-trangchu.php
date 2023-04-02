@@ -9,7 +9,7 @@
             </div>
             <div class="film-component-container" id="silde-container2">
                 <?php
-                include 'ConnectDatabase\flimLater.php'
+                include 'ConnectDatabase\flimLater-TrangChuPage.php'
                     ?>
             </div>
         </div>

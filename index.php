@@ -8,7 +8,9 @@
     <link href="TrangChuCSS\filmComponent.css" rel="stylesheet">
     <link href="TrangChuCSS\indexCSS.css" rel="stylesheet">
     <link href="TrangChuCSS\style.css" rel="stylesheet">
+    <link href="TrangChuCSS\event-promotionCSS.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0408f54e51.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 
 
@@ -30,7 +32,6 @@
         include 'TrangChuPHP\event-promotion-trangchu.php';
         include 'TrangChuPHP\footer-trangchu.php';
         ?>
-
     </div>
 
 <script src="./TrangChuJS/componentReuse.js"></script>

@@ -5,16 +5,27 @@ class FilmComponent extends HTMLElement {
     connectedCallback() {
         let src = this.getAttribute("src")
         let title = this.getAttribute("title")
+        let type = this.getAttribute("type")
         var content = `
         <div class="film-component-container-picture">
             <img src="${src}" alt="">
+            <div class="film-component-container-age">
+                <label>13+</label>   
+            </div>
         </div>
         <div class="film-component-title">
             <label>
                 ${title}
             </label>
         </div>
+        <div class="film-component-type">
+        
+            <label>
+                 ${type}
+            </label>
+        </div>
         <div class="film-component-btn" onclick="click()"><button>
+        <i class="fa fa-shopping-cart"></i>
                 MUA VÉ
             </button></div> `
         this.innerHTML = content;
@@ -38,6 +49,9 @@ class EventPromotion extends HTMLElement {
         </div>
         <div class="event-promotion-item-day">
             <label>16/10/2002</label>
+        </div>
+        <div class="event-more">
+        
         </div>
     </div>    
      `
